@@ -1,0 +1,128 @@
+@media(min-width:0px) and (max-width:576px) {
+
+    #section-1 {
+        height: auto;
+        background-image: none;
+        background-color: rgb(17,17,17);
+    }
+    section{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+    }
+    #section-1 section #part-1{
+        height: 270px;
+        display: block;
+        width: 50%;
+        margin: 15px;
+        border-radius: 50%;
+    }
+    section #part-2{
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+    section #part-2{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 15px;
+        }
+        button{
+            width: 130px;
+            font-size: 10px;
+            height: 40px;
+        }
+        div{
+            width: 90%;
+            margin: 30px;
+            margin-left: 5%;
+        }
+    }
+     #part-3{
+        height: 90px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    #part-3{
+        button{
+            margin-inline: 20px;
+        }
+    }
+    #about , #div_1 , #info, #count{
+        height: auto;
+
+    }
+    #About-pg{
+        height: auto;
+
+        #div_1{
+            flex-wrap: wrap;
+            height: auto;
+            width: 100%;
+            justify-content: inherit;
+        }
+        #div_1 #info {
+            margin-left: 10px;
+            height: 450px;
+            width: 100%;
+        }
+        h3{
+            text-align: center;
+        }
+        #C_V h3{
+            text-align: left;
+        }
+        #C_V{
+            margin-left: 20px;
+        }
+        #div_1 #count{
+            width: 100%;
+            height: auto;
+            margin-top: 0px;
+            /* padding: 15px; */
+        }
+        .about_box{
+            margin: 10px;
+            text-align: center;
+        }
+        #count .about_box{
+            h4{
+                font-size: 13px;
+            }
+        }
+
+    }
+
+    #resume{
+        #part-3{
+            width: 100%;
+            height: 90px;
+            flex-direction: row;
+            margin-top: 502px;
+            position: fixed;
+            bottom: 0%;
+        }
+    }
+    #About-pg #div_2 {
+        width: 100%;
+    }
+    #About-pg {
+        #div_2 #skills{
+            flex-wrap: wrap;
+            width: 100%;
+            margin-left: 0;
+            justify-content: space-evenly;
+        }
+        #div_2 #skills #ratio_1{
+            width: 40%;
+        }
+    }
+}
+
+
+

@@ -10,7 +10,17 @@ export default function Section1() {
   }
 
   return (
-    <div id="section-1" style={{background: url('background.jpg')}}>
+    <div id="section-1" 
+    style={
+      {
+        background: "url('background.jpg')",
+        backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
+        backgroundSize: "130% 130%",
+        backgroundPosition: "30% 50%",
+        transform: "rotate(180deg)"
+      }
+    }>
       <section>
         <div id="part-1">
           <div className="home_img wow animate__animated animate__fadeInLeft">

@@ -9,9 +9,9 @@
   width: 100%;
   border: 1px solid transparent;
   /* background: url('background.jpg'); */
-  background-repeat: no-repeat;
-  background-size: cover; 
-  transform: rotate(180deg);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover;  */
+  /* transform: rotate(180deg); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,6 +45,22 @@ section{
     height: 100%;
     width: 100%;
   }
+}
+
+
+#part-3 button span {
+  display: none;
+}
+
+#part-3 button.active {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+#part-3 button.active span {
+  display: inline;
 }
 #part-2{
   width: 58%;
